@@ -88,7 +88,7 @@ export default function Home() {
 
       {/* Show "No listings found" if query returned empty */}
       {!loading && listings && listings.length === 0 && (
-        <span className="status">No listings found!</span>
+        <span className="status">No listings found</span>
       )}
     </>
   );
